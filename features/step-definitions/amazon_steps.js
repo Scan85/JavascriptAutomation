@@ -1,19 +1,19 @@
-let myStepDefinitionsWrapper = function () {
+let amazonShoppingTour = function () {
 
     this.Given(/^I have a browser website$/, function (callback) {
-        callback.pending();
+        browser.url('https://www.amazon.de');
     });
 
     this.When(/^I am on amazon$/, function (callback) {
-        callback.pending();
+        $('#twotabsearchtextbox input').click();
     });
 
     this.Then(/^I should see the search text box$/, function (callback) {
-        callback.pending();
+        $('#twotabsearchtextbox input').click();
     });
 
     this.When(/^I search for my given suggestion$/, function (callback) {
-        callback.pending();
+        $('#twotabsearchtextbox input').setValue('ninten');
     });
 
     this.Then(/^I see different results for my suggestions$/, function (callback) {
@@ -28,4 +28,4 @@ let myStepDefinitionsWrapper = function () {
         callback.pending();
     });
 };
-module.exports = myStepDefinitionsWrapper;
+module.exports = amazonShoppingTour;

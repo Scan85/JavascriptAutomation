@@ -4,10 +4,13 @@
   "description": "javascript test automation",
   "main": "bundle.js",
   "dependencies": {},
-  "scripts": {},
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
   "devDependencies": {
     "wdio-cucumber-framework": "^1.0.2",
     "wdio-junit-reporter": "^0.3.1",
+    "wdio-mocha-framework": "^0.5.11",
     "wdio-selenium-standalone-service": "0.0.9",
     "webdriverio": "^4.9.10"
   },
