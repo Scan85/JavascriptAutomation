@@ -1,0 +1,28 @@
+{
+  "name": "JavascriptAutomation",
+  "version": "1.0.0",
+  "description": "javascript test automation",
+  "main": "bundle.js",
+  "dependencies": {},
+  "scripts": {},
+  "devDependencies": {
+    "wdio-cucumber-framework": "^1.0.2",
+    "wdio-junit-reporter": "^0.3.1",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "webdriverio": "^4.9.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scan85/JavascriptAutomation.git"
+  },
+  "author": "Seyit Can",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scan85/JavascriptAutomation/issues"
+  },
+  "homepage": "https://github.com/Scan85/JavascriptAutomation#readme",
+  "keywords": [
+    "cucumber",
+    "javascript"
+  ]
+}
